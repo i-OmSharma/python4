@@ -40,7 +40,7 @@ while True:
     choice = input("Enter your choice (1/2/3): ")
 
     if choice == '1':
-        name = input("Enter the name: ")
+        name = input("Enter the name here : ")
         phone = input("Enter the phone number: ")
         add_contact(name, phone)
         print("Contact added successfully!")
